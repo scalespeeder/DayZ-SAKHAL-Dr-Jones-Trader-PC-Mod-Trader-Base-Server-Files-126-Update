@@ -1,0 +1,195 @@
+// ------------------------------------------------------ Sakhal Trader Markers -------------------------------------------------------
+
+// Airfeild Trader:
+
+<TraderMarker> 			0 									// Trader ID
+<TraderMarkerPosition>	   7229.251953125, 4.033555030822754, 7076.2685546875 	// Coordinate X, 	Coordinate Y, 	Coordinate Z
+<TraderMarkerSafezone>	80									// Safezone Radius
+
+<TraderMarker> 			1
+<TraderMarkerPosition>	 7229.123046875,  3.9089105129241945, 7074.0048828125
+<TraderMarkerSafezone>	80
+
+<TraderMarker> 			2
+<TraderMarkerPosition>	  7232.2568359375, 4.037310600280762, 7075.8828125
+<TraderMarkerSafezone>	80
+
+<TraderMarker> 			3
+<TraderMarkerPosition>	7235.59765625, 3.8503611087799074, 7060.1943359375
+<TraderMarkerSafezone>	80
+
+<TraderMarker> 			4
+<TraderMarkerPosition> 7235.4228515625, 3.958167791366577, 7057.86962890625
+<TraderMarkerSafezone>	30
+
+<TraderMarker> 			5
+<TraderMarkerPosition>	    7232.41845703125, 3.9664077758789064, 7058.4677734375
+<TraderMarkerSafezone>	30
+<VehicleSpawn>			 7223.419921875, 2.7007217407226564, 7059.0869140625	// Vehicle Spawnpoint for Trader; 	Coordinate X, 	Coordinate Y, 	Coordinate Z (optional)
+<VehicleSpawnOri>		-10.72,		0,			0			// Vehicle Spawnpoint Orientation; 	Yaw, 			Pitch, 			Roll	 	 (optional)
+
+<TraderMarker> 			6
+<TraderMarkerPosition>	     7294.2861328125, 4.111133575439453, 6959.85302734375
+<TraderMarkerSafezone>	30
+<VehicleSpawn>			  7299.5380859375, 1.1205490827560425, 6942.451171875	// Vehicle Spawnpoint for Trader; 	Coordinate X, 	Coordinate Y, 	Coordinate Z (optional)
+<VehicleSpawnOri>		-39.489,		4.14,			0			// Vehicle Spawnpoint Orientation; 	Yaw, 			Pitch, 			Roll	 	 (optional)
+
+
+// ------------------------------------------------------ Objects to Spawn ------------------------------------------------------
+	
+// Sakhal Airfield
+
+<Object> 			SurvivorF_Irena						// Classname
+<ObjectPosition>	  7229.251953125, 4.033555030822754, 7076.2685546875		// Coordinate X, 	Coordinate Y, 	Coordinate Z
+<ObjectOrientation>	 118.464, 0,			0			// Yaw, 			Pitch, 			Roll
+//<ObjectAttachment>	NPC_DUMMY						// Add this if you are using an non Character Object for an Trader (like Vending Machines, etc.). It is needed to make the User Action for the Trading Menu work.
+<ObjectAttachment>	BoxCerealCrunchin					// Add an Item to the Traders Inventory;
+<ObjectAttachment>	SurgicalGloves_White
+<ObjectAttachment>	Bandana_Polkapattern
+<ObjectAttachment>	MiniDress_PinkChecker
+<ObjectAttachment>	DressShoes_White
+
+<Object> 			SurvivorF_Keiko
+<ObjectPosition>	 7229.123046875, 3.9089105129241945, 7074.0048828125
+<ObjectOrientation>	70.73, 0,			0
+<ObjectAttachment>	Wrench
+<ObjectAttachment>	SledgeHammer
+<ObjectAttachment>	WorkingGloves_Brown
+<ObjectAttachment>	ConstructionHelmet_White
+<ObjectAttachment>	Shirt_BlueCheck
+<ObjectAttachment>	CanvasPants_Blue
+<ObjectAttachment>	WorkingBoots_Grey
+
+<Object> 			SurvivorF_Frida
+<ObjectPosition>	  7232.2568359375, 4.037310600280762, 7075.8828125
+<ObjectOrientation>	-100.88, 0,			0
+<ObjectAttachment>	ThickFramesGlasses
+<ObjectAttachment>	WomanSuit_Black
+<ObjectAttachment>	SlacksPants_Black
+<ObjectAttachment>	DressShoes_Black
+
+<Object> 			SurvivorM_Seth
+<ObjectPosition>	  7235.59765625, 3.8503611087799074, 7060.1943359375
+<ObjectOrientation>	 -96.23, 0,			0
+<ObjectAttachment>	FirefighterAxe
+<ObjectAttachment>	SVD
+<ObjectAttachment>	PSO1Optic
+<ObjectAttachment>	M4A1
+<ObjectAttachment>	M4_RISHndgrd
+<ObjectAttachment>	Universallight
+<ObjectAttachment>	M4_OEBttstck
+<ObjectAttachment>	M68Optic
+<ObjectAttachment>	M4_Suppressor
+<ObjectAttachment>	OMNOGloves_Gray
+<ObjectAttachment>	MilitaryBeret_CDF
+<ObjectAttachment>	PlateCarrierVest
+<ObjectAttachment>	TTsKOJacket_Camo
+<ObjectAttachment>	TTSKOPants
+<ObjectAttachment>	MilitaryBoots_Black
+<ObjectAttachment>	AliceBag_Camo
+
+<Object> 			SurvivorM_Taiki
+<ObjectPosition>	 7235.4228515625, 3.958167791366577, 7057.86962890625
+<ObjectOrientation>	  -64.69, 0,			0
+<ObjectAttachment>	Mag_STANAG_30Rnd
+<ObjectAttachment>	SportGlasses_Orange
+<ObjectAttachment>	BaseballCap_Camo
+<ObjectAttachment>	TacticalShirt_Olive
+<ObjectAttachment>	SmershVest
+<ObjectAttachment>	BDUPants
+<ObjectAttachment>	TTSKOBoots
+<ObjectAttachment>	AssaultBag_Ttsko
+
+
+
+<Object> 			SurvivorM_Peter
+<ObjectPosition>	  7232.41845703125, 3.9664077758789064, 7058.4677734375
+<ObjectOrientation>	 79.93, 0,			0
+<ObjectAttachment>	LugWrench
+<ObjectAttachment>	WorkingGloves_Black
+<ObjectAttachment>	ReflexVest
+<ObjectAttachment>	JumpsuitJacket_Blue
+<ObjectAttachment>	JumpsuitPants_Blue
+<ObjectAttachment>	HikingBootsLow_Blue
+
+<Object> 			SurvivorM_Guo
+<ObjectPosition>	  7294.2861328125, 4.111133575439453, 6959.85302734375
+<ObjectOrientation>	 -114.46, 0,			0
+<ObjectAttachment>	LugWrench
+<ObjectAttachment>	WorkingGloves_Black
+<ObjectAttachment>	ReflexVest
+<ObjectAttachment>	JumpsuitJacket_Blue
+<ObjectAttachment>	JumpsuitPants_Blue
+<ObjectAttachment>	HikingBootsLow_Blue
+
+
+<Object>			Land_RoadCone
+<ObjectPosition>	 7222.0966796875, 2.65616512298584, 7055.42529296875
+<ObjectOrientation>	0, 0,			0
+ 
+<Object>			Land_RoadCone
+<ObjectPosition>	 7226.32470703125, 2.6562108993530275, 7056.1318359375
+<ObjectOrientation>	39.997997,	0,			0
+ 
+<Object>			Land_RoadCone
+<ObjectPosition>	 7221.27783203125, 2.6562204360961916, 7061.97607421875
+<ObjectOrientation>	39.997997,	0,			0
+
+<Object>			Land_RoadCone
+<ObjectPosition>	 7225.2568359375, 2.6562137603759767, 7062.5234375
+<ObjectOrientation>	141.382217,	0,			0
+
+<Object>			Land_RoadCone
+<ObjectPosition>	   7296.8349609375, 1.1898934841156006, 6943.63671875
+<ObjectOrientation>	0, 0,			0
+ 
+<Object>			Land_RoadCone
+<ObjectPosition>	7298.91162109375, 1.2582356929779053, 6945.54150390625
+<ObjectOrientation>	39.997997,	0,			0
+ 
+<Object>			Land_RoadCone
+<ObjectPosition>	 7299.75146484375, 0.783067524433136, 6939.0654296875
+<ObjectOrientation>	39.997997,	0,			0
+
+<Object>			Land_RoadCone
+<ObjectPosition>	 7302.43505859375, 0.8901150822639465, 6941.990234375
+<ObjectOrientation>	141.382217,	0,			0
+ 
+<Object>			Land_MobileLaboratory
+<ObjectPosition>	 7231.0703125, 3.3247268199920656, 7074.037109375
+<ObjectOrientation>	 -11.87, 0,			0
+ 
+<Object>			Land_MobileLaboratory
+<ObjectPosition>	 7233.65673828125, 3.2465922832489015, 7060.177734375
+<ObjectOrientation>	168.50,0,			0
+
+<Object>			Land_Misc_Toilet_Mobile
+<ObjectPosition>	7237.85009765625, 3.833448886871338, 7058.50244140625
+<ObjectOrientation>	-101.77,	0,			0
+
+<Object> 	StaticObj_Misc_WoodenCrate_5x
+<ObjectPosition> 7235.802734375, 3.4934864044189455,  7073.11572265625
+<ObjectOrientation> 165.85, 0, 0
+
+<Object> StaticObj_Misc_WoodenCrate_3x
+<ObjectPosition>   7235.2470703125, 3.351849317550659, 7075.1083984375
+<ObjectOrientation> 163.37, 0, 0
+
+<Object> StaticObj_ammoboxes_big
+<ObjectPosition>  7235.2802734375, 3.198430299758911, 7078.55810546875
+<ObjectOrientation> -19.42, 0, 0
+
+<Object> StaticObj_Misc_Antenna
+<ObjectPosition>  7234.3740234375, 7.044793128967285, 7050.294921875
+<ObjectOrientation> 0.0, 0, 0
+
+<Object> Land_MobileLaboratory
+<ObjectPosition>  7292.44921875, 3.5225532054901125, 6959.7705078125
+<ObjectOrientation> 164.411, 0, 0
+
+<Object> StaticObj_Furniture_flag_chernarus_wall
+<ObjectPosition> 7228.0205078125, 5.1199564933776859, 7073.3955078125
+<ObjectOrientation> 76.92, 0, 0
+
+//<OpenFile> FileName.txt								// Links to another File; Must be right above <FileEnd>!
+<FileEnd>												// This has to be on the End of this File and is very importand!
